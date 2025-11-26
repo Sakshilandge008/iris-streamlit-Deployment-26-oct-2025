@@ -13,7 +13,7 @@ def  predict_species(model  :  Pipeline ,
  
     x_new =  pd.DataFrame([{'sepal_length' :  sep_len ,  
                             "sepal_width" :  sep_wid ,  
-                            "petal_len" :  petal_len ,  
+                            "petal_length" :  petal_len ,  
                             "petal_width" :  petal_wid}])
    
  
